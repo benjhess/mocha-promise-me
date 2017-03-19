@@ -1,0 +1,33 @@
+{
+  "name": "mocha-promise-me",
+  "version": "1.0.0",
+  "description": "Makes mocha tests easier when you wan't to assert that a promise will reject or resolve Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjhess/mocha-promise-me.git"
+  },
+  "keywords": [
+    "mocha",
+    "testing",
+    "promise"
+  ],
+  "author": {
+    "name": "Benjamin Hess",
+    "url": "https://github.com/benjhess/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjhess/mocha-promise-me/issues"
+  },
+  "homepage": "https://github.com/benjhess/mocha-promise-me#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
