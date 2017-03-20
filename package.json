@@ -1,7 +1,7 @@
 {
   "name": "mocha-promise-me",
   "version": "1.0.2",
-  "description": "Makes mocha tests easier when you wan't to assert that a promise will reject or resolve Edit",
+  "description": "Makes mocha tests easier when you want to assert that a promise will reject or resolve",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha",
