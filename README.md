@@ -1,4 +1,5 @@
 # mocha-promise-me
+[![Build Status](https://api.travis-ci.org/benjhess/mocha-promise-me.svg?branch=master)](https://travis-ci.org/benjhess/mocha-promise-me) [![Coverage Status](https://coveralls.io/repos/benjhess/mocha-promise-me/badge.svg?branch=master)](https://coveralls.io/github/benjhess/mocha-promise-me)
 
 mocha-promise-me is a little helper to make mocha tests easier, when you want to:
 * assert that a promise fails (but check the exception with an assertion)
