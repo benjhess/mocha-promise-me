@@ -150,8 +150,8 @@ it('should test that a promise rejects', () =>{
   return promiseMe.thatYouReject(promise, assertion);
 });
 ```
-
-... and you can also test, that a promise resolves with some additional assertions
+### Test promises that should resolve 
+You can also test, that a promise resolves with some additional assertions.
 
 For Example:
 
@@ -177,3 +177,5 @@ it('should successfully return some data from the api', () => {
   return promiseMe.thatYouResolve(someApi.getData(), assertion);
 });
 ```
+
+Btw: You don't have to provide an assertion function. Same as with ```promiseMe.thatYouReject``` :)
